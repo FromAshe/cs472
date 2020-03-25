@@ -1,0 +1,47 @@
+
+body {
+    background-color: dimgrey;
+    color: white;
+}
+header {
+    border-bottom: 5px solid slategray;
+}
+
+header strong {
+    color: yellow;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+img {
+    width: 120pt;
+}
+
+h1, h2{
+    color: cornflowerblue;
+}
+
+a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+ol {
+    counter-reset: item 4;
+    list-style: none;
+}
+
+ol > li {
+    counter-increment:item -1;
+}
+
+ol > li:before {
+    content:counter(item) ". ";
+}
+
+p::first-letter{
+    font-size: 1.5em;
+}

@@ -1,4 +1,5 @@
 body {
+background-image: url("./images/background.gif");
 background-color: #ffffff;
 color: #404040;
 font: 11pt;
@@ -11,6 +12,7 @@ h1 {
     text-decoration: underline;
     text-align: left;
     font: 18pt normal;
+    letter-spacing: 0.25em;
 }
 
 header h1 {
@@ -22,13 +24,32 @@ a {
     color: #A4A400;
 }
 
+ul {
+    list-style-image: url(./images/pie_bullet.png);
+}
+
+#comment blockquote {
+    background-color: yellow;
+}
+
+#link {
+    border: none;
+}
+
+footer {
+    text-align-last: right;
+    font-family: monospace;
+}
+
 header, section {
     border-bottom: 5px solid #f0f0f0;
 }
 
+
+
 /* element.style {
     box-shadow: 13px 22px 24px #bea5aa;
-    border-bottom: 5px solid #0000ffa1;
+    border-bottom: 5px solid #0000ffa1;   
     margin: 0px 0px 21px 0px;
 } */
 
