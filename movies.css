@@ -82,6 +82,8 @@ width: 100%;
 
 .rightSection{
     float:left;
+    width: 250px;
+    background-color: #a2b964;
 }
 
 
