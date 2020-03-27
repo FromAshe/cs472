@@ -1,0 +1,84 @@
+body {
+    font: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-image: url(./images/background.png);  
+}
+
+header{
+    text-align: center;
+}
+
+.banner{
+    background-image: url(./images/bannerbg.png);
+    background-repeat: repeat-x;
+       
+}
+h1 {
+    font: 24pt bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+main {
+    width: 800px;
+    /* background-color: red; */
+    margin: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+
+.leftSection {
+    width: 550px;
+    
+}
+
+.rooten {
+    color: red;
+    font: 48pt bold;
+    background-image: url(./images/rbg.png);
+    background-repeat: repeat-x;
+    
+}
+.rooten img {
+    float: left;
+    height: 83px;
+}
+
+.bottomLeft, .bottomRight {
+    width: 47%;  
+    margin-left: 2%;
+    /* margin-right: 2%; */
+    
+}
+
+.bottomLeft{
+    clear: left;
+    float: left;
+    
+}
+
+.bottomLeft .quote, .bottomRight .quote {
+font: 18px bold;
+border: 2px thick gray;
+background-color: #E8DC9B;
+border-radius: 10px;
+float: left;
+width: 100%;
+}
+
+.bottomLeft  img, .bottomRight img
+{
+    margin-right: 5px;
+    float: left;
+}
+
+.bottomRight {
+    float: left;
+}
+/* .bottomLeft .customer {
+    clear: left;
+} */
+
+
