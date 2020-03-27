@@ -48,9 +48,10 @@ main {
     height: 83px;
 }
 
-.bottomLeft, .bottomRight {
-    width: 47%;  
-    margin-left: 2%;
+.bottomLeft {
+
+    font-size: 8pt;
+    font-weight: bold;
     /* margin-right: 2%; */
     
 }
@@ -58,17 +59,21 @@ main {
 .bottomLeft{
     clear: left;
     float: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
-.bottomLeft .quote, .bottomRight .quote {
-font-size: 8pt;
-font-weight: bold;
-border: 2px thick gray;
+.bottomLeft .quote{
+
+border: 2px solid gray;
 background-color: #E8DC9B;
 border-radius: 10px;
 float: left;
-width: 100%;
+width: 94%;
 padding: 8px;
 }
 
@@ -97,3 +102,13 @@ padding: 8px;
 }
 
 
+main #lastSection {
+    background-color: #a2b964;
+    clear: left;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+footer{
+    float:right;
+}
