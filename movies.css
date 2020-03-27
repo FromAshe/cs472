@@ -27,9 +27,11 @@ main {
     margin: auto;
     border: 4px solid gray;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .leftSection {
+    float: left;
     width: 550px;
     
 }
@@ -77,8 +79,9 @@ width: 100%;
 .bottomRight {
     float: left;
 }
-/* .bottomLeft .customer {
-    clear: left;
-} */
+
+.rightSection{
+    float:left;
+}
 
 
