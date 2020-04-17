@@ -1,5 +1,5 @@
 body {
-background-image: url("./images/background.gif");
+background-image: url("./../images/background.gif");
 background-color: #ffffff;
 color: #404040;
 font: 11pt;
